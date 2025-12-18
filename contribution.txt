@@ -1,0 +1,41 @@
+In OWASP Threat Dragon, Spoofing is a key threat category from the STRIDE model, representing an attacker impersonating a legitimate user, service, or system (like faking an email sender or stealing a token) to gain unauthorized access or privileges, often seen with Actors in diagrams; you add a "Spoofing" threat to a model element (like a Website Dev component), turning the element red, to identify risks like phishing or fake credentials, and then detail its description, severity, and potential mitigations. 
+This video provides a brief overview of what spoofing means in the context of threat modeling:
+Related video thumbnail
+23s
+
+
+Manning Publications
+YouTube • 19 May 2022
+How Spoofing Works in Threat Dragon:
+STRIDE Framework: Spoofing (masquerading as someone else) is one of the six STRIDE categories (Spoofing, Tampering, Repudiation, Information Disclosure, Denial of Service, Elevation of Privilege).
+Element Association: Spoofing threats are common for "Actor" elements (users/attackers) but can be added to others.
+Adding the Threat: In your threat model diagram, select a component, click "New Threat," choose "Spoofing," and describe how an attacker might impersonate a user or service (e.g., stealing session tokens, fake login pages).
+Visual Indicator: The component's outline turns red to show it has identified threats.
+Risk Assessment: You then assess the risk by setting status (e.g., "Open"), severity, and planning mitigations (e.g., multi-factor authentication). 
+Watch this video to see how to add spoofing threats in Threat Dragon:
+Related video thumbnail
+46s
+
+
+Gilal Academy
+YouTube • 14 Oct 2025
+Examples of Spoofing Threats:
+Email Spoofing: Fake sender addresses in phishing emails to trick users.
+IP Spoofing: Hiding true IP to appear as a trusted source on a network.
+Authentication Spoofing: Attacker steals a user's token to impersonate them. 
+Threat Dragon helps you systematically find and manage these threats within your system's design. 
+Threat Modeling with OWASP Threat Dragon — Part 2 - Medium
+17 Jan 2025 — In the second phase of this lab, we will be adding threats using the STRIDE framework to different components of the mo...
+
+Medium
+
+STRIDE, LINDDUN, CIA, CIA-DIE, PLOT4ai and Generic
+The CIA-DIE diagram type adds more categories to the CIA triad which can be used for cloud based threat modeling: Distributed. Imm...
+
+www.threatdragon.com
+Threat Modeling - OWASP Cheat Sheet Series
+An attacker steals the authentication token of a legitimate user and uses it to impersonate the user.
+
+OWASP
+Show all
+
